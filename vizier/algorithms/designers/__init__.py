@@ -23,6 +23,7 @@ from vizier._src.algorithms.designers.gp_bandit import VizierGPBandit
 from vizier._src.algorithms.designers.gp_ucb_pe import VizierGPUCBPEBandit
 from vizier._src.algorithms.designers.grid import GridSearchDesigner
 from vizier._src.algorithms.designers.harmonica import HarmonicaDesigner
+from vizier._src.algorithms.designers.preference_gp.preference_gp_designer import PreferenceGPDesigner
 from vizier._src.algorithms.designers.quasi_random import QuasiRandomDesigner
 from vizier._src.algorithms.designers.random import RandomDesigner
 from vizier._src.algorithms.designers.unsafe_as_infeasible_designer import UnsafeAsInfeasibleDesigner
